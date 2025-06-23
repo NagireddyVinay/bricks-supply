@@ -1,1 +1,1 @@
-web: gunicorn app:bricks-supply
+web: gunicorn app:app
