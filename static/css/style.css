@@ -1,0 +1,98 @@
+header {
+  background: #d84315;
+  color: white;
+  padding: 30px 0;           /* Increased padding for a larger header */
+  font-size: 16px;           /* Increased font size for header */
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+nav {
+  background: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #d84315;
+}
+
+.contact-form,
+.auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 500px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea,
+.auth input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  width: 50%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #d84315;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #bf360c;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  background: #25d366;
+  color: white;
+  padding: 14px 32px;         /* Increased padding for a neater look */
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px auto;
+  font-size: 18px;            /* Slightly larger font */
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.15);
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.whatsapp-btn:hover {
+  background: #128C7E;
+  box-shadow: 0 6px 18px rgba(18, 140, 126, 0.2);
+}
+
+footer {
+  background: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-top: 40px;
+}
+
+.logo {
+  width: 150px;               /* Adjusted logo size */
+  height: auto;
+  margin: 20px auto;         /* Centered logo with margin */
+}

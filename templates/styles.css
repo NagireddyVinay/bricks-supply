@@ -1,0 +1,47 @@
+
+body {
+  font-family: sans-serif;
+  background: #fff8f0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.header {
+  padding: 20px;
+  background: #ffe1e1;
+}
+.auth {
+  margin: 40px auto;
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.auth input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+}
+button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.whatsapp a {
+  display: inline-block;
+  margin: 20px auto;
+  background: #25d366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+footer {
+  padding: 20px;
+  font-size: 14px;
+  color: #777;
+}
